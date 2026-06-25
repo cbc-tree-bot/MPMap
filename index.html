@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Canterbury-Bankstown Political Map</title>
+
+<link rel="stylesheet"
+href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+
+<style>
+
+html,body{
+height:100%;
+margin:0;
+padding:0;
+}
+
+#map{
+height:100%;
+width:100%;
+}
+
+.popup-photo{
+width:120px;
+display:block;
+margin-top:10px;
+border-radius:6px;
+}
+
+.legend{
+background:white;
+padding:10px;
+border-radius:5px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div id="map"></div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<script>
+
+const map = L.map('map',{
+center:[-33.92889388810718,151.04364403022035],
+zoom:11
+});
+
+L.tileLayer(
+'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+{
+attribution:'© OpenStreetMap contributors'
+}
+).addTo(map);
+
+
+//------------------------
+// ArcGIS query helper
+//------------------------
+
+async function queryArcGIS(url,where){
+
+const q= new URLSearchParams({
+where:where,
+outFields:"*",
+f:"geojson"
+});
+
+let response=await fetch(
+`${url}/query?${q}`
+);
+
+return await response.json();
+
+}
+
+
+//------------------------
+// member data
+//------------------------
+
+let nswMembers={};
+let federalMembers={};
+
+async function loadMemberData(){
+
+try{
+
+nswMembers=
+await (await fetch("nsw-members.json")).json();
+
+federalMembers=
+await (await fetch("federal-members.json")).json();
+
+}catch(e){
+
+console.log(
+"No member files yet"
+);
+
+}
+
+}
+
+
+//------------------------
+// layers
+//------------------------
+
+let lgaLayer;
+let stateLayer;
+let federalLayer;
+
+
+// Canterbury Bankstown
+
+async function loadLGA(){
+
+let data=
+await queryArcGIS(
+"https://portal.spatial.nsw.gov.au/server/rest/services/NSW_Administrative_Boundaries_Theme_multiCRS/FeatureServer/8",
+"councilname='CANTERBURY-BANKSTOWN COUNCIL'"
+);
+
+lgaLayer=L.geoJSON(data,{
+style:{
+color:"#000",
+weight:3,
+fillColor:"#555",
+fillOpacity:0.15
+}
+});
+
+lgaLayer.addTo(map);
+
+}
+
+
+// State districts
+
+async function loadState(){
+
+let data=
+await queryArcGIS(
+"https://portal.spatial.nsw.gov.au/server/rest/services/NSW_Administrative_Boundaries_Theme_multiCRS/FeatureServer/4",
+"1=1"
+);
+
+stateLayer=L.geoJSON(data,{
+
+style:{
+color:"#0b5fff",
+weight:2,
+fillColor:"#5b8cff",
+fillOpacity:0.10
+},
+
+onEachFeature:function(feature,layer){
+
+let district=
+feature.properties.districtname
+||feature.properties.NAME;
+
+let member=
+nswMembers[
+    district.trim().toUpperCase()
+];
+
+let html=
+`
+<b>NSW District:</b>
+${district}<br>
+`;
+
+if(member){
+
+    html += `
+    <hr>
+
+    <b>Representative:</b>
+    ${member.name || 'Unknown'}<br>
+
+    <b>Party:</b>
+    ${member.party || 'Unknown'}<br>
+
+    ${member.ministerialTitle ?
+    `<b>Ministerial title:</b>
+    ${member.ministerialTitle}<br>` : ''}
+
+    ${member.phone ?
+    `<b>Phone:</b>
+    ${member.phone}<br>` : ''}
+
+    ${member.email ?
+    `<b>Email:</b>
+    <a href="mailto:${member.email}">
+    ${member.email}
+    </a><br>` : ''}
+    `;
+}
+
+layer.bindPopup(html);
+
+}
+
+});
+
+stateLayer.addTo(map);
+
+}
+
+
+// Federal electorates
+
+async function loadFederal(){
+
+let data=
+await queryArcGIS(
+"https://portal.spatial.nsw.gov.au/server/rest/services/NSW_Administrative_Boundaries_Theme_multiCRS/FeatureServer/9",
+"1=1"
+);
+
+federalLayer=L.geoJSON(data,{
+
+style:{
+color:"#cc0000",
+weight:2,
+fillColor:"#ff7777",
+fillOpacity:0.10
+},
+
+onEachFeature:function(feature,layer){
+
+let electorate=
+feature.properties.elect_div
+||feature.properties.divisionname;
+
+let member=
+federalMembers[
+    electorate.trim().toUpperCase()
+];
+
+let html=
+`
+<b>Federal Electorate:</b>
+${electorate}<br>
+`;
+
+if(member){
+
+    html += `
+    <hr>
+
+    <b>Representative:</b>
+    ${member.name || 'Unknown'}<br>
+
+    <b>Party:</b>
+    ${member.party || 'Unknown'}<br>
+
+    ${member.ministerialTitle ?
+    `<b>Ministerial title:</b>
+    ${member.ministerialTitle}<br>` : ''}
+
+    ${member.phone ?
+    `<b>Phone:</b>
+    ${member.phone}<br>` : ''}
+
+    ${member.state ?
+    `<b>State:</b>
+    ${member.state}<br>` : ''}
+    `;
+}
+
+layer.bindPopup(html);
+
+}
+
+});
+
+federalLayer.addTo(map);
+
+}
+
+
+//------------------------
+// init
+//------------------------
+
+(async()=>{
+
+await loadMemberData();
+
+await loadLGA();
+
+await loadState();
+
+await loadFederal();
+
+L.control.layers(
+{},
+{
+"NSW State Districts":stateLayer,
+"Federal Electorates":federalLayer,
+"Canterbury-Bankstown LGA":lgaLayer
+},
+{
+collapsed:false
+}
+).addTo(map);
+
+})();
+
+</script>
+
+</body>
+</html>

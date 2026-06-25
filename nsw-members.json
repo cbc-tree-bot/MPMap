@@ -1,0 +1,610 @@
+﻿{
+    "BADGERYS CREEK":  {
+                           "email":  "badgeryscreek@parliament.nsw.gov.au",
+                           "name":  "Tanya Davies",
+                           "phone":  "(02) 9834 2966",
+                           "party":  "Liberal Party"
+                       },
+    "NEWCASTLE":  {
+                      "email":  "newcastle@parliament.nsw.gov.au",
+                      "name":  "Tim Crakanthorp",
+                      "phone":  "(02) 4926 1126",
+                      "party":  "Australian Labor Party"
+                  },
+    "NORTH SHORE":  {
+                        "email":  "northshore@parliament.nsw.gov.au",
+                        "name":  "Felicity Wilson",
+                        "phone":  "(02) 9909 2594",
+                        "party":  "Liberal Party"
+                    },
+    "CHARLESTOWN":  {
+                        "ministerialTitle":  "Minister for Women, Minister for Seniors, Minister for the Prevention of Domestic Violence and Sexual Assault",
+                        "name":  "Jodie Harrison",
+                        "email":  "charlestown@parliament.nsw.gov.au",
+                        "phone":  "(02) 4942 1242",
+                        "party":  "Australian Labor Party"
+                    },
+    "WAGGA WAGGA":  {
+                        "email":  "waggawagga@parliament.nsw.gov.au",
+                        "name":  "Joe McGirr",
+                        "phone":  "(02) 6921 1622",
+                        "party":  "Independent"
+                    },
+    "LISMORE":  {
+                    "ministerialTitle":  "Minister for Small Business, Minister for Recovery, Minister for the North Coast",
+                    "name":  "Janelle Saffin",
+                    "email":  "lismore@parliament.nsw.gov.au",
+                    "phone":  "(02) 6621 3624",
+                    "party":  "Australian Labor Party"
+                },
+    "LEPPINGTON":  {
+                       "email":  "leppington@parliament.nsw.gov.au",
+                       "name":  "Nathan Hagarty",
+                       "parliamentaryTitle":  "Government Whip",
+                       "phone":  "(02) 9602 0101",
+                       "party":  "Australian Labor Party"
+                   },
+    "MOUNT DRUITT":  {
+                         "email":  "mountdruitt@parliament.nsw.gov.au",
+                         "name":  "Edmond Atalla",
+                         "parliamentaryTitle":  "Parliamentary Secretary for Police and Counter-terrorism",
+                         "phone":  "(02) 9625 6770",
+                         "party":  "Australian Labor Party"
+                     },
+    "THE ENTRANCE":  {
+                         "email":  "TheEntrance@parliament.nsw.gov.au",
+                         "name":  "David Mehan",
+                         "parliamentaryTitle":  "Parliamentary Secretary to the Treasurer",
+                         "phone":  "(02) 4334 1012",
+                         "party":  "Australian Labor Party"
+                     },
+    "EPPING":  {
+                   "email":  "epping@parliament.nsw.gov.au",
+                   "name":  "Monica Tudehope",
+                   "phone":  "(02) 9877 0266",
+                   "party":  "Liberal Party"
+               },
+    "PROSPECT":  {
+                     "email":  "prospect@parliament.nsw.gov.au",
+                     "name":  "Hugh McDermott",
+                     "parliamentaryTitle":  "Parliamentary Secretary to the Attorney General",
+                     "phone":  "(02) 9756 4766",
+                     "party":  "Australian Labor Party"
+                 },
+    "LIVERPOOL":  {
+                      "email":  "\tliverpool@parliament.nsw.gov.au",
+                      "name":  "Charishma Kaliyanda",
+                      "parliamentaryTitle":  "Parliamentary Secretary for Customer Service and Digital Government, Parliamentary Secretary for Emergency Services, Parliamentary Secretary for Youth Justice",
+                      "phone":  "\t(02) 9602 0040",
+                      "party":  "Australian Labor Party"
+                  },
+    "PORT STEPHENS":  {
+                          "ministerialTitle":  "Minister for Families and Communities, Minister for Disability Inclusion",
+                          "name":  "Kate Washington",
+                          "email":  "portstephens@parliament.nsw.gov.au",
+                          "phone":  "(02) 4987 4455",
+                          "party":  "Australian Labor Party"
+                      },
+    "AUBURN":  {
+                   "email":  "auburn@parliament.nsw.gov.au",
+                   "name":  "Lynda Voltz",
+                   "phone":  "(02) 9737 8822",
+                   "party":  "Australian Labor Party"
+               },
+    "GOSFORD":  {
+                    "email":  "gosford@parliament.nsw.gov.au",
+                    "name":  "Liesl Tesch",
+                    "parliamentaryTitle":  "Deputy Government Whip, Parliamentary Secretary for Families and Communities, Parliamentary Secretary for Disability Inclusion",
+                    "phone":  "(02) 4342 4122",
+                    "party":  "Australian Labor Party"
+                },
+    "SOUTH COAST":  {
+                        "email":  "southcoast@parliament.nsw.gov.au",
+                        "name":  "Liza Butler",
+                        "phone":  "(02) 4421 0222",
+                        "party":  "Australian Labor Party"
+                    },
+    "BLUE MOUNTAINS":  {
+                           "email":  "bluemountains@parliament.nsw.gov.au",
+                           "name":  "Trish Doyle",
+                           "parliamentaryTitle":  "Parliamentary Secretary for Climate Change, Parliamentary Secretary for Energy, Parliamentary Secretary for the Environment, Parliamentary Secretary for Heritage",
+                           "phone":  "(02) 4751 3298",
+                           "party":  "Australian Labor Party"
+                       },
+    "OATLEY":  {
+                   "email":  "oatley@parliament.nsw.gov.au",
+                   "name":  "Mark Coure",
+                   "phone":  "(02) 9580 9349",
+                   "party":  "Liberal Party"
+               },
+    "TWEED":  {
+                  "name":  "Geoff Provest",
+                  "parliamentaryTitle":  "Shadow Parliamentary Secretary for Hospitality and Gaming, Shadow Parliamentary Secretary for Tourism",
+                  "party":  "The Nationals"
+              },
+    "LONDONDERRY":  {
+                        "ministerialTitle":  "Deputy Premier, Minister for Education and Early Learning, Minister for Western Sydney",
+                        "name":  "Prue Car",
+                        "email":  "londonderry@parliament.nsw.gov.au",
+                        "phone":  "(02) 9833 1122",
+                        "party":  "Australian Labor Party"
+                    },
+    "DRUMMOYNE":  {
+                      "email":  "drummoyne@parliament.nsw.gov.au",
+                      "name":  "Stephanie Di Pasqua",
+                      "parliamentaryTitle":  "Temporary Speaker, Shadow Parliamentary Secretary for Jobs \u0026 Small Business, Shadow Parliamentary Secretary for Health",
+                      "phone":  "(02) 9713 2999",
+                      "party":  "Liberal Party"
+                  },
+    "PARRAMATTA":  {
+                       "email":  "parramatta@parliament.nsw.gov.au",
+                       "name":  "Donna Davis",
+                       "parliamentaryTitle":  "Temporary Speaker",
+                       "phone":  "(02) 9891 4722",
+                       "party":  "Australian Labor Party"
+                   },
+    "COOGEE":  {
+                   "email":  "coogee@parliament.nsw.gov.au",
+                   "name":  "Marjorie O\u0027Neill",
+                   "parliamentaryTitle":  "Parliamentary Secretary for Transport",
+                   "phone":  "(02) 9398 1822",
+                   "party":  "Australian Labor Party"
+               },
+    "CESSNOCK":  {
+                     "email":  "cessnock@parliament.nsw.gov.au",
+                     "name":  "Clayton Barr",
+                     "parliamentaryTitle":  "Temporary Speaker",
+                     "phone":  "(02) 4991 1466",
+                     "party":  "Australian Labor Party"
+                 },
+    "VAUCLUSE":  {
+                     "email":  "vaucluse@parliament.nsw.gov.au",
+                     "name":  "Kellie Sloane",
+                     "parliamentaryTitle":  "Leader of the Liberals",
+                     "phone":  "(02) 9326 1856",
+                     "party":  "Liberal Party"
+                 },
+    "MACQUARIE FIELDS":  {
+                             "ministerialTitle":  "Minister for Better Regulation and Fair Trading, Minister for Industry and Trade, Minister for Innovation, Science and Technology, Minister for Building, Minister for Corrections",
+                             "name":  "Anoulack Chanthivong",
+                             "email":  "macquariefields@parliament.nsw.gov.au",
+                             "phone":  "(02) 9618 2077",
+                             "party":  "Australian Labor Party"
+                         },
+    "COOTAMUNDRA":  {
+                        "email":  "cootamundra@parliament.nsw.gov.au",
+                        "name":  "Steph Cooke",
+                        "phone":  "(02) 6382 2399",
+                        "party":  "The Nationals"
+                    },
+    "CLARENCE":  {
+                     "email":  "clarence@parliament.nsw.gov.au",
+                     "name":  "Richie Williamson",
+                     "parliamentaryTitle":  "The Nationals Whip, Shadow Parliamentary Secretary for Regional NSW, Shadow Parliamentary Secretary for Local Government",
+                     "phone":  "(02) 6643 1244",
+                     "party":  "The Nationals"
+                 },
+    "NEWTOWN":  {
+                    "email":  "newtown@parliament.nsw.gov.au",
+                    "name":  "Jenny Leong",
+                    "phone":  "(02) 9517 2800",
+                    "party":  "The Greens"
+                },
+    "WAHROONGA":  {
+                      "email":  "wahroonga@parliament.nsw.gov.au",
+                      "name":  "Alister Henskens",
+                      "phone":  "(02) 9487 8588",
+                      "party":  "Liberal Party"
+                  },
+    "TAMWORTH":  {
+                     "email":  "tamworth@parliament.nsw.gov.au",
+                     "name":  "Kevin Anderson",
+                     "parliamentaryTitle":  "Deputy Leader of the Nationals",
+                     "phone":  "(02) 6766 1422",
+                     "party":  "The Nationals"
+                 },
+    "SWANSEA":  {
+                    "ministerialTitle":  "Minister for Police and Counter-terrorism, Minister for the Hunter",
+                    "name":  "Yasmin Catley",
+                    "email":  "swansea@parliament.nsw.gov.au",
+                    "phone":  "(02) 4972 1133",
+                    "party":  "Australian Labor Party"
+                },
+    "WOLLONDILLY":  {
+                        "email":  "wollondilly@parliament.nsw.gov.au",
+                        "name":  "Judy Hannan",
+                        "phone":  "(02) 4683 2622",
+                        "party":  "Independent"
+                    },
+    "WYONG":  {
+                  "ministerialTitle":  "Minister for Aboriginal Affairs and Treaty, Minister for Gaming and Racing, Minister for Veterans, Minister for Medical Research, Minister for the Central Coast",
+                  "name":  "David Harris",
+                  "email":  "wyong@parliament.nsw.gov.au",
+                  "phone":  "(02) 4352 2711",
+                  "party":  "Australian Labor Party"
+              },
+    "KEIRA":  {
+                  "ministerialTitle":  "Minister for Health, Minister for Regional Health, Minister for the Illawarra and the South Coast",
+                  "name":  "Ryan Park",
+                  "email":  "keira@parliament.nsw.gov.au",
+                  "phone":  "(02) 4285 1588",
+                  "party":  "Australian Labor Party"
+              },
+    "WOLLONGONG":  {
+                       "ministerialTitle":  "Minister for Planning and Public Spaces",
+                       "name":  "Paul Scully",
+                       "email":  "wollongong@parliament.nsw.gov.au",
+                       "phone":  "(02) 4226 5700",
+                       "party":  "Australian Labor Party"
+                   },
+    "GRANVILLE":  {
+                      "email":  "granville@parliament.nsw.gov.au",
+                      "name":  "Julia Finn",
+                      "parliamentaryTitle":  "Parliamentary Secretary to the Premier, Parliamentary Secretary for the Arts",
+                      "phone":  "(02) 9637 1656",
+                      "party":  "Australian Labor Party"
+                  },
+    "CAMDEN":  {
+                   "email":  "camden@parliament.nsw.gov.au",
+                   "name":  "Sally Quinnell",
+                   "phone":  "(02) 4655 3333",
+                   "party":  "Australian Labor Party"
+               },
+    "BLACKTOWN":  {
+                      "email":  "blacktown@parliament.nsw.gov.au",
+                      "name":  "Stephen Bali",
+                      "parliamentaryTitle":  "Parliamentary Secretary for Planning and Public Spaces",
+                      "phone":  "(02) 9671 5222",
+                      "party":  "Australian Labor Party"
+                  },
+    "HAWKESBURY":  {
+                       "email":  "hawkesbury@parliament.nsw.gov.au",
+                       "name":  "Robyn Preston",
+                       "phone":  "(02) 4578 0300",
+                       "party":  "Liberal Party"
+                   },
+    "LANE COVE":  {
+                      "email":  "lanecove@parliament.nsw.gov.au",
+                      "name":  "Anthony Roberts",
+                      "parliamentaryTitle":  "Legislative Assembly Trustee, Parliamentary Contributory Superannuation Fund",
+                      "phone":  "(02) 9817 4757",
+                      "party":  "Liberal Party"
+                  },
+    "CASTLE HILL":  {
+                        "email":  "castlehill@parliament.nsw.gov.au",
+                        "name":  "Mark Hodges",
+                        "parliamentaryTitle":  "Shadow Parliamentary Secretary for Planning and Public Spaces, Shadow Parliamentary Secretary for Police and Counter-terrorism  , Shadow Parliamentary Secretary for Western Sydney, Temporary Speaker",
+                        "phone":  "(02) 9686 3110",
+                        "party":  "Liberal Party"
+                    },
+    "BEGA":  {
+                 "email":  "bega@parliament.nsw.gov.au",
+                 "name":  "Michael Holland",
+                 "parliamentaryTitle":  "Parliamentary Secretary for Health, Parliamentary Secretary for Regional Health",
+                 "phone":  "(02) 6492 2056",
+                 "party":  "Australian Labor Party"
+             },
+    "MAROUBRA":  {
+                     "name":  "Michael Daley",
+                     "party":  "Australian Labor Party",
+                     "parliamentaryTitle":  "Legislative Assembly Trustee, Parliamentary Contributory Superannuation Fund",
+                     "ministerialTitle":  "Attorney General",
+                     "phone":  "(02) 9349 6440",
+                     "email":  "maroubra@parliament.nsw.gov.au"
+                 },
+    "PENRITH":  {
+                    "email":  "penrith@parliament.nsw.gov.au",
+                    "name":  "Karen McKeown",
+                    "phone":  "(02) 4722 8660",
+                    "party":  "Australian Labor Party"
+                },
+    "FAIRFIELD":  {
+                      "email":  "fairfield@parliament.nsw.gov.au",
+                      "name":  "David Saliba",
+                      "phone":  "(02) 9726 9323",
+                      "party":  "Australian Labor Party"
+                  },
+    "STRATHFIELD":  {
+                        "email":  "strathfield@parliament.nsw.gov.au",
+                        "name":  "Jason Li",
+                        "parliamentaryTitle":  "Assistant Speaker",
+                        "phone":  "(02) 9747 1711",
+                        "party":  "Australian Labor Party"
+                    },
+    "WALLSEND":  {
+                     "email":  "wallsend@parliament.nsw.gov.au",
+                     "name":  "Sonia Hornery",
+                     "parliamentaryTitle":  "Deputy Speaker",
+                     "phone":  "(02) 4950 0955",
+                     "party":  "Australian Labor Party"
+                 },
+    "BALLINA":  {
+                    "email":  "ballina@parliament.nsw.gov.au",
+                    "name":  "Tamara Smith",
+                    "phone":  "(02) 6686 7522",
+                    "party":  "The Greens"
+                },
+    "DUBBO":  {
+                  "email":  "dubbo@parliament.nsw.gov.au",
+                  "name":  "Dugald Saunders",
+                  "phone":  "(02) 6882 3577",
+                  "party":  "The Nationals"
+              },
+    "MIRANDA":  {
+                    "email":  "miranda@parliament.nsw.gov.au",
+                    "name":  "Eleni Petinos",
+                    "phone":  "(02) 9525 6378",
+                    "party":  "Liberal Party"
+                },
+    "KELLYVILLE":  {
+                       "email":  "kellyville@parliament.nsw.gov.au",
+                       "name":  "Ray Williams",
+                       "phone":  "(02) 8882 9555",
+                       "party":  "Liberal Party"
+                   },
+    "COFFS HARBOUR":  {
+                          "email":  "coffsharbour@parliament.nsw.gov.au",
+                          "name":  "Gurmesh Singh",
+                          "parliamentaryTitle":  "Leader of the Nationals",
+                          "phone":  "(02) 6652 6500",
+                          "party":  "The Nationals"
+                      },
+    "PORT MACQUARIE":  {
+                           "email":  "portmacquarie@parliament.nsw.gov.au",
+                           "name":  "Robert Dwyer",
+                           "parliamentaryTitle":  "Shadow Parliamentary Secretary for Regional Roads",
+                           "phone":  "(02) 6584 0977",
+                           "party":  "Liberal Party"
+                       },
+    "TERRIGAL":  {
+                     "email":  "terrigal@parliament.nsw.gov.au",
+                     "name":  "Adam Crouch",
+                     "parliamentaryTitle":  "Opposition Whip",
+                     "phone":  "(02) 4365 1906",
+                     "party":  "Liberal Party"
+                 },
+    "OXLEY":  {
+                  "email":  "oxley@parliament.nsw.gov.au",
+                  "name":  "Michael Kemp",
+                  "parliamentaryTitle":  "Temporary Speaker, Shadow Parliamentary Secretary for Emergency Services, Shadow Parliamentary Secretary for the Prevention of Regional Crime, Shadow Parliamentary Secretary for Agriculture",
+                  "phone":  "(02) 6562 6190",
+                  "party":  "The Nationals"
+              },
+    "DAVIDSON":  {
+                     "email":  "davidson@parliament.nsw.gov.au",
+                     "name":  "Matt Cross",
+                     "parliamentaryTitle":  "Shadow Parliamentary Secretary for Men\u0027s Health , Shadow Parliamentary Secretary for Government Accountability",
+                     "phone":  "(02) 9880 7400",
+                     "party":  "Liberal Party"
+                 },
+    "WAKEHURST":  {
+                      "email":  "wakehurst@parliament.nsw.gov.au",
+                      "name":  "Michael Regan",
+                      "phone":  "(02) 9981 1111",
+                      "party":  "Independent"
+                  },
+    "KOGARAH":  {
+                    "ministerialTitle":  "Premier",
+                    "name":  "Chris Minns",
+                    "party":  "Australian Labor Party"
+                },
+    "WILLOUGHBY":  {
+                       "email":  "willoughby@parliament.nsw.gov.au",
+                       "name":  "Tim James",
+                       "phone":  "(02) 9439 4199",
+                       "party":  "Liberal Party"
+                   },
+    "ROCKDALE":  {
+                     "ministerialTitle":  "Minister for Lands and Property, Minister for Multiculturalism, Minister for Sport, Minister for Jobs and Tourism",
+                     "name":  "Stephen Kamper",
+                     "email":  "rockdale@parliament.nsw.gov.au",
+                     "phone":  "(02) 9597 1414",
+                     "party":  "Australian Labor Party"
+                 },
+    "KIAMA":  {
+                  "email":  "kiama@parliament.nsw.gov.au",
+                  "name":  "Katelin McInerney",
+                  "phone":  "(02) 4232 1082",
+                  "party":  "Australian Labor Party"
+              },
+    "NORTHERN TABLELANDS":  {
+                                "email":  "northerntablelands@parliament.nsw.gov.au",
+                                "name":  "Brendan Moylan",
+                                "phone":  "(02) 6752 5002",
+                                "party":  "The Nationals"
+                            },
+    "CANTERBURY":  {
+                       "ministerialTitle":  "Minister for Industrial Relations, Minister for Work Health and Safety",
+                       "name":  "Sophie Cotsis",
+                       "email":  "canterbury@parliament.nsw.gov.au",
+                       "phone":  "(02) 9718 1234",
+                       "party":  "Australian Labor Party"
+                   },
+    "HEATHCOTE":  {
+                      "email":  "heathcote@parliament.nsw.gov.au",
+                      "name":  "Maryanne Stuart",
+                      "phone":  "(02) 9548 0144",
+                      "party":  "Australian Labor Party"
+                  },
+    "BALMAIN":  {
+                    "email":  "balmain@parliament.nsw.gov.au",
+                    "name":  "Kobi Shetty",
+                    "phone":  "(02) 9660 7586",
+                    "party":  "The Greens"
+                },
+    "MANLY":  {
+                  "email":  "manly@parliament.nsw.gov.au",
+                  "name":  "James Griffin",
+                  "parliamentaryTitle":  "Manager of Opposition Business in the Legislative Assembly",
+                  "phone":  "(02) 9976 2773",
+                  "party":  "Liberal Party"
+              },
+    "LAKE MACQUARIE":  {
+                           "email":  "lakemacquarie@parliament.nsw.gov.au",
+                           "name":  "Greg Piper",
+                           "parliamentaryTitle":  "Speaker",
+                           "phone":  "(02) 4959 3200",
+                           "party":  "Independent"
+                       },
+    "MYALL LAKES":  {
+                        "email":  "myalllakes@parliament.nsw.gov.au",
+                        "name":  "Tanya Thompson",
+                        "phone":  "(02) 6555 4099",
+                        "party":  "The Nationals"
+                    },
+    "ORANGE":  {
+                   "email":  "orange@parliament.nsw.gov.au",
+                   "name":  "Philip Donato",
+                   "phone":  "(02) 6362 5199",
+                   "party":  "Independent"
+               },
+    "RIVERSTONE":  {
+                       "email":  "riverstone@parliament.nsw.gov.au",
+                       "name":  "Warren Kirby",
+                       "phone":  "(02) 8883 3499",
+                       "party":  "Australian Labor Party"
+                   },
+    "HEFFRON":  {
+                    "name":  "Ron Hoenig",
+                    "party":  "Australian Labor Party",
+                    "parliamentaryTitle":  "Leader of the House, Vice-President of the Executive Council",
+                    "ministerialTitle":  "Minister for Local Government",
+                    "phone":  "(02) 9699 8166",
+                    "email":  "heffron@parliament.nsw.gov.au"
+                },
+    "PITTWATER":  {
+                      "email":  "pittwater@parliament.nsw.gov.au",
+                      "name":  "Jacqui Scruby",
+                      "phone":  "(02) 9999 3599",
+                      "party":  "Independent"
+                  },
+    "BARWON":  {
+                   "email":  "barwon@parliament.nsw.gov.au",
+                   "name":  "Roy Butler",
+                   "phone":  "(02) 6792 1422",
+                   "party":  "Independent"
+               },
+    "GOULBURN":  {
+                     "email":  "goulburn@parliament.nsw.gov.au",
+                     "name":  "Wendy Tuckerman",
+                     "phone":  "(02) 4822 6444",
+                     "party":  "Liberal Party"
+                 },
+    "MAITLAND":  {
+                     "ministerialTitle":  "Minister for Roads, Minister for Regional Transport",
+                     "name":  "Jenny Aitchison",
+                     "email":  "maitland@parliament.nsw.gov.au",
+                     "phone":  "(02) 4933 1617",
+                     "party":  "Australian Labor Party"
+                 },
+    "HOLSWORTHY":  {
+                       "email":  "holsworthy@parliament.nsw.gov.au",
+                       "name":  "Tina Ayyad",
+                       "parliamentaryTitle":  "Shadow Parliamentary Secretary for Education, Shadow Parliamentary Secretary for Families \u0026 Communities, Shadow Parliamentary Secretary for Youth, Shadow Parliamentary Secretary for South Western Sydney",
+                       "phone":  "(02) 9825 3653",
+                       "party":  "Liberal Party"
+                   },
+    "HORNSBY":  {
+                    "email":  "hornsby@parliament.nsw.gov.au",
+                    "name":  "James Wallace",
+                    "phone":  "(02) 9476 3411",
+                    "party":  "Liberal Party"
+                },
+    "UPPER HUNTER":  {
+                         "email":  "  upperhunter@parliament.nsw.gov.au",
+                         "name":  "Dave Layzell",
+                         "phone":  "(02) 6543 1065",
+                         "party":  "The Nationals"
+                     },
+    "CABRAMATTA":  {
+                       "email":  "cabramatta@parliament.nsw.gov.au",
+                       "name":  "Tri Vo",
+                       "phone":  "(02) 9724 3381",
+                       "party":  "Australian Labor Party"
+                   },
+    "ALBURY":  {
+                   "email":  "albury@parliament.nsw.gov.au",
+                   "name":  "Justin Clancy",
+                   "parliamentaryTitle":  "Deputy Leader of the Liberals in the Legislative Assembly",
+                   "phone":  "(02) 6021 3042",
+                   "party":  "Liberal Party"
+               },
+    "BATHURST":  {
+                     "email":  "bathurst@parliament.nsw.gov.au",
+                     "name":  "Paul Toole",
+                     "phone":  "(02) 6332 1300",
+                     "party":  "The Nationals"
+                 },
+    "WINSTON HILLS":  {
+                          "email":  "winstonhills@parliament.nsw.gov.au",
+                          "name":  "Mark Taylor",
+                          "phone":  "(02) 9831 8022",
+                          "party":  "Liberal Party"
+                      },
+    "SUMMER HILL":  {
+                        "email":  "summerhill@parliament.nsw.gov.au",
+                        "name":  "Jo Haylen",
+                        "phone":  "(02) 9572 5900",
+                        "party":  "Australian Labor Party"
+                    },
+    "CRONULLA":  {
+                     "email":  "cronulla@parliament.nsw.gov.au",
+                     "name":  "Mark Speakman",
+                     "phone":  "(02) 9527 1477",
+                     "party":  "Liberal Party"
+                 },
+    "SHELLHARBOUR":  {
+                         "email":  "shellharbour@parliament.nsw.gov.au",
+                         "name":  "Anna Watson",
+                         "parliamentaryTitle":  "Parliamentary Secretary for Roads, Parliamentary Secretary for Regional Transport and Roads",
+                         "phone":  "(02) 4297 3111",
+                         "party":  "Australian Labor Party"
+                     },
+    "EAST HILLS":  {
+                       "email":  "easthills@parliament.nsw.gov.au",
+                       "name":  "Kylie Wilkinson",
+                       "phone":  "(02) 9772 2774",
+                       "party":  "Australian Labor Party"
+                   },
+    "MONARO":  {
+                   "ministerialTitle":  "Minister for Skills, TAFE and Tertiary Education",
+                   "name":  "Steve Whan",
+                   "email":  "monaro@parliament.nsw.gov.au",
+                   "phone":  "(02) 6299 4899",
+                   "party":  "Australian Labor Party"
+               },
+    "BANKSTOWN":  {
+                      "ministerialTitle":  "Minister for Customer Service and Digital Government, Minister for Emergency Services, Minister for Youth Justice",
+                      "name":  "Jihad Dib",
+                      "email":  "bankstown@parliament.nsw.gov.au  ",
+                      "phone":  "(02) 9759 5000",
+                      "party":  "Australian Labor Party"
+                  },
+    "RYDE":  {
+                 "email":  "ryde@parliament.nsw.gov.au",
+                 "name":  "Jordan Lane",
+                 "parliamentaryTitle":  "Shadow Parliamentary Secretary for Multiculturalism, Shadow Parliamentary Secretary for the Cost of Living, Shadow Parliamentary Secretary for Home Ownership and Rental Affordability",
+                 "phone":  "(02) 9808 3288",
+                 "party":  "Liberal Party"
+             },
+    "SYDNEY":  {
+                   "email":  "sydney@parliament.nsw.gov.au",
+                   "name":  "Alex Greenwich",
+                   "parliamentaryTitle":  "Temporary Speaker",
+                   "phone":  "(02) 9267 5999",
+                   "party":  "Independent"
+               },
+    "CAMPBELLTOWN":  {
+                         "email":  "campbelltown@parliament.nsw.gov.au",
+                         "name":  "Greg Warren",
+                         "parliamentaryTitle":  "Parliamentary Secretary to the Deputy Premier, Parliamentary Secretary for Education and Early Learning, Parliamentary Secretary for Western Sydney",
+                         "phone":  "(02) 4625 3344",
+                         "party":  "Australian Labor Party"
+                     },
+    "MURRAY":  {
+                   "email":  "murray@parliament.nsw.gov.au",
+                   "name":  "Helen Dalton",
+                   "phone":  "(02) 6962 6644",
+                   "party":  "Independent"
+               }
+}
