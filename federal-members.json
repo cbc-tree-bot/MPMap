@@ -1,55 +1,64 @@
 ﻿{
     "GREY":  {
+                 "email":  "tom.venning.mp@aph.gov.au",
                  "state":  "SA",
                  "name":  "Thomas Howard Venning",
                  "phone":  "(08) 8821 4366",
                  "party":  "LP"
              },
     "LINDSAY":  {
+                    "email":  "melissa.mcintosh.mp@aph.gov.au",
                     "state":  "NSW",
                     "name":  "Melissa Iris McIntosh",
                     "phone":  "(02) 4722 0600",
                     "party":  "LP"
                 },
     "STURT":  {
+                  "email":  "claire.clutterham.mp@aph.gov.au",
                   "state":  "SA",
                   "name":  "Claire Louise Clutterham",
                   "phone":  "(08) 8431 2277",
                   "party":  "ALP"
               },
     "KENNEDY":  {
+                    "email":  "bob.katter.mp@aph.gov.au",
                     "state":  "QLD",
                     "name":  "Robert Carl Katter",
                     "phone":  "(07) 4061 6066",
                     "party":  "KAP"
                 },
     "ISAACS":  {
+                   "email":  "mark.dreyfus.mp@aph.gov.au",
                    "state":  "VIC",
                    "name":  "Mark Alfred Dreyfus",
                    "phone":  "(03) 9580 4651",
                    "party":  "ALP"
                },
     "DICKSON":  {
+                    "email":  "ali.france.mp@aph.gov.au",
                     "state":  "QLD",
                     "name":  "Allison Anne France",
                     "phone":  "(07) 3205 9977",
                     "party":  "ALP"
                 },
     "COOPER":  {
-                   "ministerialTitle":  "Assistant Minister for Social Services | Assistant Minister for the Prevention of Family Violence",
                    "state":  "VIC",
                    "name":  "Gerardine Mary Kearney",
+                   "party":  "ALP",
+                   "ministerialTitle":  "Assistant Minister for Social Services | Assistant Minister for the Prevention of Family Violence",
                    "phone":  "(03) 9416 8690",
-                   "party":  "ALP"
+                   "email":  "ged.kearney.mp@aph.gov.au"
                },
     "GRAYNDLER":  {
-                      "ministerialTitle":  "Prime Minister",
                       "state":  "NSW",
                       "name":  "Anthony Norman Albanese",
+                      "party":  "ALP",
+                      "ministerialTitle":  "Prime Minister",
                       "phone":  "(02) 9564 3588",
-                      "party":  "ALP"
+                      "email":  "anthony.albanese.mp@aph.gov.au"
                   },
     "MARIBYRNONG":  {
+                        "email":  "jo.briskey.mp@aph.gov.au",
                         "state":  "VIC",
                         "name":  "Joanna Leigh Briskey",
                         "phone":  "(03) 9326 1300",
@@ -58,17 +67,20 @@
     "HINKLER":  {
                     "state":  "QLD",
                     "name":  "David John Batt",
+                    "party":  "LNP",
                     "parliamentaryTitle":  "Deputy Nationals Whip",
                     "phone":  "(07) 4152 0744",
-                    "party":  "LNP"
+                    "email":  "david.batt.mp@aph.gov.au"
                 },
     "WENTWORTH":  {
+                      "email":  "allegra.spender.mp@aph.gov.au",
                       "state":  "NSW",
                       "name":  "Allegra May Spender",
                       "phone":  "(02) 9327 3988",
                       "party":  "IND"
                   },
     "CUNNINGHAM":  {
+                       "email":  "alison.byrnes.mp@aph.gov.au",
                        "state":  "NSW",
                        "name":  "Alison Joy Byrnes",
                        "phone":  "(02) 4228 5899",
@@ -77,94 +89,109 @@
     "LONGMAN":  {
                     "state":  "QLD",
                     "name":  "Terry James Young",
+                    "party":  "LNP",
                     "parliamentaryTitle":  "Second Deputy Speaker",
                     "phone":  "(07) 5432 3177",
-                    "party":  "LNP"
+                    "email":  "terry.young.mp@aph.gov.au"
                 },
     "BOOTHBY":  {
+                    "email":  "louise.miller-frost.mp@aph.gov.au",
                     "state":  "SA",
                     "name":  "Louise Jane Miller-Frost",
                     "phone":  "(08) 8374 0511",
                     "party":  "ALP"
                 },
     "WIDE BAY":  {
+                     "email":  "llew.obrien.mp@aph.gov.au",
                      "state":  "QLD",
                      "name":  "Llewellyn Stephen O\u0027Brien",
                      "phone":  "(07) 4121 2936",
                      "party":  "LNP"
                  },
     "COWPER":  {
+                   "email":  "pat.conaghan.mp@aph.gov.au",
                    "state":  "NSW",
                    "name":  "Patrick John Conaghan",
                    "phone":  "(02) 6583 8387",
                    "party":  "NATS"
                },
     "WARRINGAH":  {
+                      "email":  "zali.steggall.mp@aph.gov.au",
                       "state":  "NSW",
                       "name":  "Zali Steggall",
                       "phone":  "(02) 9977 6411",
                       "party":  "IND"
                   },
     "HAWKE":  {
-                  "ministerialTitle":  "Minister for Aged Care and Seniors",
                   "state":  "VIC",
                   "name":  "Sam Thomas Rae",
+                  "party":  "ALP",
+                  "ministerialTitle":  "Minister for Aged Care and Seniors",
                   "phone":  "(03) 9070 1960",
-                  "party":  "ALP"
+                  "email":  "sam.rae.mp@aph.gov.au"
               },
     "BOWMAN":  {
                    "state":  "QLD",
                    "name":  "Henry Jon Pike",
+                   "party":  "LNP",
                    "parliamentaryTitle":  "Opposition Whip",
                    "phone":  "(07) 3821 0155",
-                   "party":  "LNP"
+                   "email":  "henry.pike.mp@aph.gov.au"
                },
     "BRISBANE":  {
+                     "email":  "madonna.jarrett.mp@aph.gov.au",
                      "state":  "QLD",
                      "name":  "Madonna Louise Jarrett",
                      "phone":  "(07) 3862 4044",
                      "party":  "ALP"
                  },
     "FOWLER":  {
+                   "email":  "dai.le.mp@aph.gov.au",
                    "state":  "NSW",
                    "name":  "Dai Trang Le",
                    "phone":  "(02) 9726 3988",
                    "party":  "IND"
                },
     "CORIO":  {
-                  "ministerialTitle":  "Deputy Prime Minister | Minister for Defence",
                   "state":  "VIC",
                   "name":  "Richard Donald Marles",
+                  "party":  "ALP",
+                  "ministerialTitle":  "Deputy Prime Minister | Minister for Defence",
                   "phone":  "(03) 5221 3033",
-                  "party":  "ALP"
+                  "email":  "richard.marles.mp@aph.gov.au"
               },
     "MCEWEN":  {
+                   "email":  "rob.mitchell.mp@aph.gov.au",
                    "state":  "VIC",
                    "name":  "Robert George Mitchell",
                    "phone":  "(03) 5716 3000",
                    "party":  "ALP"
                },
     "FENNER":  {
-                   "ministerialTitle":  "Assistant Minister for Productivity, Competition, Charities and Treasury",
                    "state":  "ACT",
                    "name":  "Andrew Keith Leigh",
+                   "party":  "ALP",
+                   "ministerialTitle":  "Assistant Minister for Productivity, Competition, Charities and Treasury",
                    "phone":  "(02) 6247 4396",
-                   "party":  "ALP"
+                   "email":  "andrew.leigh.mp@aph.gov.au"
                },
     "GRIFFITH":  {
+                     "email":  "renee.coffey.mp@aph.gov.au",
                      "state":  "QLD",
                      "name":  "Renee Kay Coffey",
                      "phone":  "(07) 3397 1674",
                      "party":  "ALP"
                  },
     "BLAXLAND":  {
-                     "ministerialTitle":  "Minister for Education",
                      "state":  "NSW",
                      "name":  "Jason Dean Clare",
+                     "party":  "ALP",
+                     "ministerialTitle":  "Minister for Education",
                      "phone":  "(02) 9790 2466",
-                     "party":  "ALP"
+                     "email":  "jason.clare.mp@aph.gov.au"
                  },
     "FLYNN":  {
+                  "email":  "colin.boyce.mp@aph.gov.au",
                   "state":  "QLD",
                   "name":  "Colin Einar Boyce",
                   "phone":  "(07) 4972 5465",
@@ -173,17 +200,20 @@
     "MARANOA":  {
                     "state":  "QLD",
                     "name":  "David Littleproud",
+                    "party":  "LNP",
                     "parliamentaryTitle":  "Leader of the Nationals",
                     "phone":  "(07) 4662 2715",
-                    "party":  "LNP"
+                    "email":  "david.littleproud.mp@aph.gov.au"
                 },
     "MENZIES":  {
+                    "email":  "gabriel.ng.mp@aph.gov.au",
                     "state":  "VIC",
                     "name":  "Gabriel James Ng",
                     "phone":  "(03) 7066 6590",
                     "party":  "ALP"
                 },
     "BENNELONG":  {
+                      "email":  "jerome.laxale.mp@aph.gov.au",
                       "state":  "NSW",
                       "name":  "Jerome Alexandre Alain Laxale",
                       "phone":  "(02) 9869 4288",
@@ -192,44 +222,51 @@
     "WERRIWA":  {
                     "state":  "NSW",
                     "name":  "Anne Maree Stanley",
+                    "party":  "ALP",
                     "parliamentaryTitle":  "Government Whip",
                     "phone":  "(02) 8783 0977",
-                    "party":  "ALP"
+                    "email":  "anne.stanley.mp@aph.gov.au"
                 },
     "CLARK":  {
+                  "email":  "andrew.wilkie.mp@aph.gov.au",
                   "state":  "TAS",
                   "name":  "Andrew Damien Wilkie",
                   "phone":  "(03) 6234 5255",
                   "party":  "IND"
               },
     "MCMAHON":  {
-                    "ministerialTitle":  "Minister for Climate Change and Energy",
                     "state":  "NSW",
                     "name":  "Christopher Eyles Bowen",
+                    "party":  "ALP",
+                    "ministerialTitle":  "Minister for Climate Change and Energy",
                     "phone":  "(02) 9604 0710",
-                    "party":  "ALP"
+                    "email":  "chris.bowen.mp@aph.gov.au"
                 },
     "BALLARAT":  {
-                     "ministerialTitle":  "Minister for Infrastructure, Transport, Regional Development and Local Government",
                      "state":  "VIC",
                      "name":  "Catherine Fiona King",
+                     "party":  "ALP",
+                     "ministerialTitle":  "Minister for Infrastructure, Transport, Regional Development and Local Government",
                      "phone":  "(03) 5338 8123",
-                     "party":  "ALP"
+                     "email":  "catherine.king.mp@aph.gov.au"
                  },
     "OXLEY":  {
                   "state":  "QLD",
                   "name":  "Dugald Milton Dick",
+                  "party":  "ALP",
                   "parliamentaryTitle":  "Speaker",
                   "phone":  "(07) 3879 6440",
-                  "party":  "ALP"
+                  "email":  "milton.dick.mp@aph.gov.au"
               },
     "HERBERT":  {
+                    "email":  "phillip.thompson.mp@aph.gov.au",
                     "state":  "QLD",
                     "name":  "Phillip Thompson",
                     "phone":  "(07) 4725 2066",
                     "party":  "LNP"
                 },
     "MACQUARIE":  {
+                      "email":  "susan.templeman.mp@aph.gov.au",
                       "state":  "NSW",
                       "name":  "Susan Raye Templeman",
                       "phone":  "(02) 4573 8222",
@@ -241,48 +278,56 @@
                       "party":  "ALP",
                       "parliamentaryTitle":  "Deputy Leader of the House",
                       "ministerialTitle":  "Minister for Disability and the National Disability Insurance Scheme | Minister for Health and Ageing",
-                      "phone":  "(08) 8241 0190"
+                      "phone":  "(08) 8241 0190",
+                      "email":  "mark.butler.mp@aph.gov.au"
                   },
     "FAIRFAX":  {
                     "state":  "QLD",
                     "name":  "Edward Lynam O\u0027Brien",
+                    "party":  "LNP",
                     "parliamentaryTitle":  "Deputy Leader of the Opposition",
                     "phone":  "(07) 5479 2800",
-                    "party":  "LNP"
+                    "email":  "ted.obrien.mp@aph.gov.au"
                 },
     "HOLT":  {
+                 "email":  "cassandra.fernando.mp@aph.gov.au",
                  "state":  "VIC",
                  "name":  "Cassandra Juanita Fernando",
                  "phone":  "(03) 8790 0556",
                  "party":  "ALP"
              },
     "PEARCE":  {
+                   "email":  "tracey.roberts.mp@aph.gov.au",
                    "state":  "WA",
                    "name":  "Tracey Gardner Roberts",
                    "phone":  "(08) 6500 6499",
                    "party":  "ALP"
                },
     "LYONS":  {
-                  "ministerialTitle":  "Assistant Minister for Women | Assistant Minister for Health and Aged Care | Assistant Minister for Indigenous Health",
                   "state":  "TAS",
                   "name":  "Rebecca Peta White",
+                  "party":  "ALP",
+                  "ministerialTitle":  "Assistant Minister for Women | Assistant Minister for Health and Aged Care | Assistant Minister for Indigenous Health",
                   "phone":  "(03) 6263 3721",
-                  "party":  "ALP"
+                  "email":  "rebecca.white.mp@aph.gov.au"
               },
     "PERTH":  {
-                  "ministerialTitle":  "Assistant Minister to the Prime Minister | Assistant Minister for the Public Service | Assistant Minister for Employment and Workplace Relations",
                   "state":  "WA",
                   "name":  "Patrick Possum Gorman",
+                  "party":  "ALP",
+                  "ministerialTitle":  "Assistant Minister to the Prime Minister | Assistant Minister for the Public Service | Assistant Minister for Employment and Workplace Relations",
                   "phone":  "(08) 9272 3411",
-                  "party":  "ALP"
+                  "email":  "patrick.gorman.mp@aph.gov.au"
               },
     "PARKES":  {
+                   "email":  "jamie.chaffey.mp@aph.gov.au",
                    "state":  "NSW",
                    "name":  "Jamie Lesley Chaffey",
                    "phone":  "(08) 8087 7649",
                    "party":  "NATS"
                },
     "BEROWRA":  {
+                    "email":  "julian.leeser.mp@aph.gov.au",
                     "state":  "NSW",
                     "name":  "Julian Leeser",
                     "phone":  "(02) 9980 1822",
@@ -291,49 +336,57 @@
     "BEAN":  {
                  "state":  "ACT",
                  "name":  "David Philip Benedict Smith",
+                 "party":  "ALP",
                  "parliamentaryTitle":  "Government Whip",
                  "phone":  "(02) 6293 1344",
-                 "party":  "ALP"
+                 "email":  "david.smith.mp@aph.gov.au"
              },
     "PARRAMATTA":  {
-                       "ministerialTitle":  "Cabinet Secretary | Assistant Minister for Science, Technology and the Digital Economy",
                        "state":  "NSW",
                        "name":  "Andrew Henry George Charlton",
+                       "party":  "ALP",
+                       "ministerialTitle":  "Cabinet Secretary | Assistant Minister for Science, Technology and the Digital Economy",
                        "phone":  "(02) 9689 1455",
-                       "party":  "ALP"
+                       "email":  "andrew.charlton.mp@aph.gov.au"
                    },
     "PETRIE":  {
+                   "email":  "emma.comer.mp@aph.gov.au",
                    "state":  "QLD",
                    "name":  "Emma Louise Comer",
                    "phone":  "(07) 3284 8008",
                    "party":  "ALP"
                },
     "CHIFLEY":  {
+                    "email":  "ed.husic.mp@aph.gov.au",
                     "state":  "NSW",
                     "name":  "Edham Nurredin Husic",
                     "phone":  "(02) 9625 4344",
                     "party":  "ALP"
                 },
     "MONASH":  {
+                   "email":  "mary.aldred.mp@aph.gov.au",
                    "state":  "VIC",
                    "name":  "Mary Rose Aldred",
                    "phone":  "(03) 5614 3600",
                    "party":  "LP"
                },
     "COWAN":  {
-                  "ministerialTitle":  "Minister for Small Business | Minister for International Development | Minister for Multicultural Affairs",
                   "state":  "WA",
                   "name":  "Anne Aly",
+                  "party":  "ALP",
+                  "ministerialTitle":  "Minister for Small Business | Minister for International Development | Minister for Multicultural Affairs",
                   "phone":  "(08) 9409 4517",
-                  "party":  "ALP"
+                  "email":  "anne.aly.mp@aph.gov.au"
               },
     "SOLOMON":  {
+                    "email":  "luke.gosling.mp@aph.gov.au",
                     "state":  "NT",
                     "name":  "Luke John Gosling",
                     "phone":  "(08) 8928 0180",
                     "party":  "ALP"
                 },
     "TANGNEY":  {
+                    "email":  "sam.lim.mp@aph.gov.au",
                     "state":  "WA",
                     "name":  "Sam Bon Cheng Lim",
                     "phone":  "(08) 9354 9633",
@@ -342,29 +395,34 @@
     "HUME":  {
                  "state":  "NSW",
                  "name":  "Angus James Taylor",
+                 "party":  "LP",
                  "parliamentaryTitle":  "Leader of the Opposition",
                  "phone":  "(02) 4658 7188",
-                 "party":  "LP"
+                 "email":  "angus.taylor.mp@aph.gov.au"
              },
     "ASTON":  {
+                  "email":  "mary.doyle.mp@aph.gov.au",
                   "state":  "VIC",
                   "name":  "Mary Judith Jacinta Doyle",
                   "phone":  "(03) 9887 3890",
                   "party":  "ALP"
               },
     "RIVERINA":  {
+                     "email":  "michael.mccormack.mp@aph.gov.au",
                      "state":  "NSW",
                      "name":  "Michael Francis McCormack",
                      "phone":  "(02) 6921 4600",
                      "party":  "NATS"
                  },
     "DURACK":  {
+                   "email":  "melissa.price.mp@aph.gov.au",
                    "state":  "WA",
                    "name":  "Melissa Lee Price",
                    "phone":  "(08) 9964 2195",
                    "party":  "LP"
                },
     "WANNON":  {
+                   "email":  "dan.tehan.mp@aph.gov.au",
                    "state":  "VIC",
                    "name":  "Daniel Thomas Tehan",
                    "phone":  "(03) 5572 1100",
@@ -373,92 +431,107 @@
     "FADDEN":  {
                    "state":  "QLD",
                    "name":  "Cameron Mackenzie Caldwell",
+                   "party":  "LNP",
                    "parliamentaryTitle":  "Opposition Whip",
                    "phone":  "(07) 5500 5919",
-                   "party":  "LNP"
+                   "email":  "cameron.caldwell.mp@aph.gov.au"
                },
     "SWAN":  {
+                 "email":  "zaneta.mascarenhas.mp@aph.gov.au",
                  "state":  "WA",
                  "name":  "Zaneta Felice Antoinetta Mascarenhas",
                  "phone":  "(08) 9355 0099",
                  "party":  "ALP"
              },
     "MORETON":  {
+                    "email":  "julie-ann.campbell.mp@aph.gov.au",
                     "state":  "QLD",
                     "name":  "Julie-Ann Patricia Campbell",
                     "phone":  "(07) 3344 2622",
                     "party":  "ALP"
                 },
     "BARKER":  {
+                   "email":  "tony.pasin.mp@aph.gov.au",
                    "state":  "SA",
                    "name":  "Antony Pasin",
                    "phone":  "(08) 8724 7730",
                    "party":  "LP"
                },
     "INDI":  {
+                 "email":  "helen.haines.mp@aph.gov.au",
                  "state":  "VIC",
                  "name":  "Helen Mary Haines",
                  "phone":  "(03) 5721 7077",
                  "party":  "IND"
              },
     "CANBERRA":  {
+                     "email":  "alicia.payne.mp@aph.gov.au",
                      "state":  "ACT",
                      "name":  "Alicia Emma Payne",
                      "phone":  "(02) 6247 8475",
                      "party":  "ALP"
                  },
     "O\u0027CONNOR":  {
+                          "email":  "rick.wilson.mp@aph.gov.au",
                           "state":  "WA",
                           "name":  "Richard James Wilson",
                           "phone":  "(08) 9021 2044",
                           "party":  "LP"
                       },
     "MALLEE":  {
+                   "email":  "anne.webster.mp@aph.gov.au",
                    "state":  "VIC",
                    "name":  "Anne Elizabeth Webster",
                    "phone":  "(03) 5021 5987",
                    "party":  "NATS"
                },
     "FISHER":  {
+                   "email":  "andrew.wallace.mp@aph.gov.au",
                    "state":  "QLD",
                    "name":  "Andrew Bruce Wallace",
                    "phone":  "(07) 5493 5556",
                    "party":  "LNP"
                },
     "DUNKLEY":  {
+                    "email":  "jodie.belyea.mp@aph.gov.au",
                     "state":  "VIC",
                     "name":  "Jodie Anne Belyea",
                     "phone":  "(03) 9781 2333",
                     "party":  "ALP"
                 },
     "BRUCE":  {
-                  "ministerialTitle":  "Assistant Minister for Citizenship, Customs and Multicultural Affairs | Assistant Minister for International Education",
                   "state":  "VIC",
                   "name":  "Julian Christopher Hill",
+                  "party":  "ALP",
+                  "ministerialTitle":  "Assistant Minister for Citizenship, Customs and Multicultural Affairs | Assistant Minister for International Education",
                   "phone":  "(03) 9791 7770",
-                  "party":  "ALP"
+                  "email":  "julian.hill.mp@aph.gov.au"
               },
     "DEAKIN":  {
+                   "email":  "matt.gregg.mp@aph.gov.au",
                    "state":  "VIC",
                    "name":  "Matthew John Gregg",
                    "phone":  "(03) 7066 6599",
                    "party":  "ALP"
                },
     "BURT":  {
-                 "ministerialTitle":  "Minister for Veterans\u0027 Affairs | Minister for Defence Personnel",
                  "state":  "WA",
                  "name":  "Matt James Keogh",
+                 "party":  "ALP",
+                 "ministerialTitle":  "Minister for Veterans\u0027 Affairs | Minister for Defence Personnel",
                  "phone":  "(08) 9390 0180",
-                 "party":  "ALP"
+                 "email":  "matt.keogh.mp@aph.gov.au"
              },
     "MITCHELL":  {
                      "state":  "NSW",
                      "name":  "Alexander George Hawke",
+                     "party":  "LP",
                      "parliamentaryTitle":  "Manager of Opposition Business",
                      "phone":  "(02) 9899 7211",
-                     "party":  "LP"
+                     "email":  "alex.hawke.mp@aph.gov.au"
                  },
     "WHITLAM":  {
+                    "email":  "carol.berry.mp@aph.gov.au",
                     "state":  "NSW",
                     "name":  "Carol Gaye Berry",
                     "phone":  "(02) 4297 2285",
@@ -467,11 +540,13 @@
     "NEWCASTLE":  {
                       "state":  "NSW",
                       "name":  "Sharon Catherine Claydon",
+                      "party":  "ALP",
                       "parliamentaryTitle":  "Deputy Speaker",
                       "phone":  "(02) 4926 1555",
-                      "party":  "ALP"
+                      "email":  "sharon.claydon.mp@aph.gov.au"
                   },
     "REID":  {
+                 "email":  "sally.sitou.mp@aph.gov.au",
                  "state":  "NSW",
                  "name":  "Sally Sitou",
                  "phone":  "(02) 9715 7444",
@@ -483,68 +558,79 @@
                    "party":  "ALP",
                    "parliamentaryTitle":  "Leader of the House",
                    "ministerialTitle":  "Minister for the Arts | Minister for Home Affairs | Minister for Cyber Security | Minister for Immigration and Citizenship",
-                   "phone":  "(02) 9750 9088"
+                   "phone":  "(02) 9750 9088",
+                   "email":  "tony.burke.mp@aph.gov.au"
                },
     "HOTHAM":  {
-                   "ministerialTitle":  "Minister for Housing | Minister for Homelessness | Minister for Cities",
                    "state":  "VIC",
                    "name":  "Clare Ellen O\u0027Neil",
+                   "party":  "ALP",
+                   "ministerialTitle":  "Minister for Housing | Minister for Homelessness | Minister for Cities",
                    "phone":  "(03) 9545 6211",
-                   "party":  "ALP"
+                   "email":  "clare.oneil.mp@aph.gov.au"
                },
     "ROBERTSON":  {
+                      "email":  "gordon.reid.mp@aph.gov.au",
                       "state":  "NSW",
                       "name":  "Gordon James Reid",
                       "phone":  "(02) 4322 2400",
                       "party":  "ALP"
                   },
     "SHORTLAND":  {
-                      "ministerialTitle":  "Minister for Pacific Island Affairs | Minister for Defence Industry",
                       "state":  "NSW",
                       "name":  "Patrick Martin Conroy",
+                      "party":  "ALP",
+                      "ministerialTitle":  "Minister for Pacific Island Affairs | Minister for Defence Industry",
                       "phone":  "(02) 4947 9546",
-                      "party":  "ALP"
+                      "email":  "pat.conroy.mp@aph.gov.au"
                   },
     "LA TROBE":  {
+                     "email":  "jason.wood.mp@aph.gov.au",
                      "state":  "VIC",
                      "name":  "Jason Peter Wood",
                      "phone":  "(03) 9768 9164",
                      "party":  "LP"
                  },
     "MELBOURNE":  {
+                      "email":  "sarah.witty.mp@aph.gov.au",
                       "state":  "VIC",
                       "name":  "Sarah Jane Witty",
                       "phone":  "(03) 7066 6595",
                       "party":  "ALP"
                   },
     "WILLS":  {
-                  "ministerialTitle":  "Assistant Minister for Defence",
                   "state":  "VIC",
                   "name":  "Peter Khalil",
+                  "party":  "ALP",
+                  "ministerialTitle":  "Assistant Minister for Defence",
                   "phone":  "(03) 9350 5777",
-                  "party":  "ALP"
+                  "email":  "peter.khalil.mp@aph.gov.au"
               },
     "KINGSTON":  {
-                     "ministerialTitle":  "Minister for Employment and Workplace Relations",
                      "state":  "SA",
                      "name":  "Amanda Louise Rishworth",
+                     "party":  "ALP",
+                     "ministerialTitle":  "Minister for Employment and Workplace Relations",
                      "phone":  "(08) 8186 2588",
-                     "party":  "ALP"
+                     "email":  "amanda.rishworth.mp@aph.gov.au"
                  },
     "LYNE":  {
+                 "email":  "alison.penfold.mp@aph.gov.au",
                  "state":  "NSW",
                  "name":  "Alison Louise Penfold",
                  "phone":  "(02) 6586 4462",
                  "party":  "NATS"
              },
     "BRAND":  {
-                  "ministerialTitle":  "Minister for Resources | Minister for Northern Australia",
                   "state":  "WA",
                   "name":  "Madeleine Mary Harvie King",
+                  "party":  "ALP",
+                  "ministerialTitle":  "Minister for Resources | Minister for Northern Australia",
                   "phone":  "(08) 9527 9377",
-                  "party":  "ALP"
+                  "email":  "madeleine.king.mp@aph.gov.au"
               },
     "FORREST":  {
+                    "email":  "ben.small.mp@aph.gov.au",
                     "state":  "WA",
                     "name":  "Benjamin John Small",
                     "phone":  "(08) 9721 3788",
@@ -553,53 +639,62 @@
     "PAGE":  {
                  "state":  "NSW",
                  "name":  "Kevin John Hogan",
+                 "party":  "NATS",
                  "parliamentaryTitle":  "Deputy Manager of Opposition Business\rDeputy Leader of the National Party",
                  "phone":  "(02) 6621 4044",
-                 "party":  "NATS"
+                 "email":  "kevin.hogan.mp@aph.gov.au"
              },
     "MAKIN":  {
+                  "email":  "tony.zappia.mp@aph.gov.au",
                   "state":  "SA",
                   "name":  "Antonio Zappia",
                   "phone":  "(08) 8265 3100",
                   "party":  "ALP"
               },
     "CHISHOLM":  {
+                     "email":  "carina.garland.mp@aph.gov.au",
                      "state":  "VIC",
                      "name":  "Carina Mary Lindsay Garland",
                      "phone":  "(03) 9808 3188",
                      "party":  "ALP"
                  },
     "CORANGAMITE":  {
+                        "email":  "libby.coker.mp@aph.gov.au",
                         "state":  "VIC",
                         "name":  "Elizabeth Ann Coker",
                         "phone":  "(03) 5261 7683",
                         "party":  "ALP"
                     },
     "BLAIR":  {
+                  "email":  "shayne.neumann.mp@aph.gov.au",
                   "state":  "QLD",
                   "name":  "Shayne Kenneth Neumann",
                   "phone":  "(07) 3201 5300",
                   "party":  "ALP"
               },
     "BONNER":  {
+                   "email":  "kara.cook.mp@aph.gov.au",
                    "state":  "QLD",
                    "name":  "Kara May George Cook",
                    "phone":  "(07) 3893 3488",
                    "party":  "ALP"
                },
     "CURTIN":  {
+                   "email":  "kate.chaney.mp@aph.gov.au",
                    "state":  "WA",
                    "name":  "Kate Ella Chaney",
                    "phone":  "(08) 9388 0288",
                    "party":  "IND"
                },
     "BANKS":  {
+                  "email":  "zhi.soon.mp@aph.gov.au",
                   "state":  "NSW",
                   "name":  "Xian-Zhi Soon",
                   "phone":  "(02) 9353 0588",
                   "party":  "ALP"
               },
     "FORDE":  {
+                  "email":  "rowan.holzberger.mp@aph.gov.au",
                   "state":  "QLD",
                   "name":  "Rowan Aubrey Victor Holzberger",
                   "phone":  "(07) 3807 6340",
@@ -608,64 +703,74 @@
     "CASEY":  {
                   "state":  "VIC",
                   "name":  "Aaron Anthony Violi",
+                  "party":  "LP",
                   "parliamentaryTitle":  "Opposition Chief Whip",
                   "phone":  "(03) 9727 0799",
-                  "party":  "LP"
+                  "email":  "aaron.violi.mp@aph.gov.au"
               },
     "JAGAJAGA":  {
+                     "email":  "kate.thwaites.mp@aph.gov.au",
                      "state":  "VIC",
                      "name":  "Kate Lynne Thwaites",
                      "phone":  "(03) 9459 1411",
                      "party":  "ALP"
                  },
     "FREMANTLE":  {
-                      "ministerialTitle":  "Assistant Minister for Climate Change and Energy | Assistant Minister for Emergency Management",
                       "state":  "WA",
                       "name":  "Joshua Hamilton Wilson",
+                      "party":  "ALP",
+                      "ministerialTitle":  "Assistant Minister for Climate Change and Energy | Assistant Minister for Emergency Management",
                       "phone":  "(08) 9335 8555",
-                      "party":  "ALP"
+                      "email":  "josh.wilson.mp@aph.gov.au"
                   },
     "HASLUCK":  {
+                    "email":  "tania.lawrence.mp@aph.gov.au",
                     "state":  "WA",
                     "name":  "Tania Natalie Lawrence",
                     "phone":  "(08) 6245 3340",
                     "party":  "ALP"
                 },
     "KINGSFORD SMITH":  {
-                            "ministerialTitle":  "Assistant Minister for Immigration | Assistant Minister for Foreign Affairs and Trade",
                             "state":  "NSW",
                             "name":  "Matthew James Thistlethwaite",
+                            "party":  "ALP",
+                            "ministerialTitle":  "Assistant Minister for Immigration | Assistant Minister for Foreign Affairs and Trade",
                             "phone":  "(02) 9349 6007",
-                            "party":  "ALP"
+                            "email":  "matt.thistlethwaite.mp@aph.gov.au"
                         },
     "LALOR":  {
                   "state":  "VIC",
                   "name":  "Joanne Catherine Ryan",
+                  "party":  "ALP",
                   "parliamentaryTitle":  "Chief Government Whip",
                   "phone":  "(03) 9742 5800",
-                  "party":  "ALP"
+                  "email":  "joanne.ryan.mp@aph.gov.au"
               },
     "GOLDSTEIN":  {
+                      "email":  "tim.wilson.mp@aph.gov.au",
                       "state":  "VIC",
                       "name":  "Timothy Robert Wilson",
                       "phone":  "(03) 9557 4644",
                       "party":  "LP"
                   },
     "FRANKLIN":  {
-                     "ministerialTitle":  "Minister for Agriculture, Fisheries and Forestry",
                      "state":  "TAS",
                      "name":  "Julie Maree Collins",
+                     "party":  "ALP",
+                     "ministerialTitle":  "Minister for Agriculture, Fisheries and Forestry",
                      "phone":  "(03) 6244 1222",
-                     "party":  "ALP"
+                     "email":  "julie.collins.mp@aph.gov.au"
                  },
     "LILLEY":  {
-                   "ministerialTitle":  "Minister for Sport | Minister for Communications",
                    "state":  "QLD",
                    "name":  "Anika Shay Wells",
+                   "party":  "ALP",
+                   "ministerialTitle":  "Minister for Sport | Minister for Communications",
                    "phone":  "(07) 3266 8244",
-                   "party":  "ALP"
+                   "email":  "anika.wells.mp@aph.gov.au"
                },
     "SPENCE":  {
+                   "email":  "matt.burnell.mp@aph.gov.au",
                    "state":  "SA",
                    "name":  "Matt Paul Burnell",
                    "phone":  "(08) 8258 6300",
@@ -674,270 +779,314 @@
     "CAPRICORNIA":  {
                         "state":  "QLD",
                         "name":  "Michelle Leanne Landry",
+                        "party":  "LNP",
                         "parliamentaryTitle":  "Chief Nationals Whip",
                         "phone":  "(07) 4922 6604",
-                        "party":  "LNP"
+                        "email":  "michelle.landry.mp@aph.gov.au"
                     },
     "EDEN-MONARO":  {
-                        "ministerialTitle":  "Minister for Regional Development, Local Government and Territories | Minister for Emergency Management",
                         "state":  "NSW",
                         "name":  "Kristy Louise McBain",
+                        "party":  "ALP",
+                        "ministerialTitle":  "Minister for Regional Development, Local Government and Territories | Minister for Emergency Management",
                         "phone":  "(02) 6284 2442",
-                        "party":  "ALP"
+                        "email":  "kristy.mcbain.mp@aph.gov.au"
                     },
     "HUGHES":  {
+                   "email":  "david.moncrieff.mp@aph.gov.au",
                    "state":  "NSW",
                    "name":  "David Sidney Moncrieff",
                    "phone":  "(02) 9521 6262",
                    "party":  "ALP"
                },
     "GROOM":  {
+                  "email":  "garth.hamilton.mp@aph.gov.au",
                   "state":  "QLD",
                   "name":  "Garth Russell Hamilton",
                   "phone":  "(07) 4632 4144",
                   "party":  "LNP"
               },
     "BENDIGO":  {
+                    "email":  "lisa.chesters.mp@aph.gov.au",
                     "state":  "VIC",
                     "name":  "Lisa Marie Chesters",
                     "phone":  "(03) 5443 9055",
                     "party":  "ALP"
                 },
     "GELLIBRAND":  {
+                       "email":  "tim.watts.mp@aph.gov.au",
                        "state":  "VIC",
                        "name":  "Timothy Graham Watts",
                        "phone":  "(03) 9687 7661",
                        "party":  "ALP"
                    },
     "KOOYONG":  {
+                    "email":  "monique.ryan.mp@aph.gov.au",
                     "state":  "VIC",
                     "name":  "Monique Marie Ryan",
                     "phone":  "(03) 9326 2900",
                     "party":  "IND"
                 },
     "MCPHERSON":  {
+                      "email":  "leon.rebello.mp@aph.gov.au",
                       "state":  "QLD",
                       "name":  "Leon Stefan Rebello",
                       "phone":  "(07) 5580 9111",
                       "party":  "LNP"
                   },
     "MAYO":  {
+                 "email":  "rebekha.sharkie.mp@aph.gov.au",
                  "state":  "SA",
                  "name":  "Rebekha Carina Che Sharkie",
                  "phone":  "(08) 8398 5566",
                  "party":  "CA"
              },
     "SYDNEY":  {
-                   "ministerialTitle":  "Minister for Social Services",
                    "state":  "NSW",
                    "name":  "Tanya Joan Plibersek",
+                   "party":  "ALP",
+                   "ministerialTitle":  "Minister for Social Services",
                    "phone":  "(02) 9379 0700",
-                   "party":  "ALP"
+                   "email":  "tanya.plibersek.mp@aph.gov.au"
                },
     "GREENWAY":  {
-                     "ministerialTitle":  "Attorney-General",
                      "state":  "NSW",
                      "name":  "Michelle Anne Rowland",
+                     "party":  "ALP",
+                     "ministerialTitle":  "Attorney-General",
                      "phone":  "(02) 9671 4780",
-                     "party":  "ALP"
+                     "email":  "michelle.rowland.mp@aph.gov.au"
                  },
     "DAWSON":  {
+                   "email":  "andrew.willcox.mp@aph.gov.au",
                    "state":  "QLD",
                    "name":  "Andrew John Willcox",
                    "phone":  "(07) 4944 0662",
                    "party":  "LNP"
                },
     "BRADDON":  {
+                    "email":  "anne.urquhart.mp@aph.gov.au",
                     "state":  "TAS",
                     "name":  "Anne Elizabeth Urquhart",
                     "phone":  "(03) 6431 1333",
                     "party":  "ALP"
                 },
     "MACNAMARA":  {
+                      "email":  "josh.burns.mp@aph.gov.au",
                       "state":  "VIC",
                       "name":  "Josh Burns",
                       "phone":  "(03) 9534 8126",
                       "party":  "ALP"
                   },
     "CALWELL":  {
+                    "email":  "basem.abdo.mp@aph.gov.au",
                     "state":  "VIC",
                     "name":  "Basem Jamal Abdo",
                     "phone":  "(03) 9367 5216",
                     "party":  "ALP"
                 },
     "NEW ENGLAND":  {
+                        "email":  "barnaby.joyce.mp@aph.gov.au",
                         "state":  "NSW",
                         "name":  "Barnaby Thomas Gerard Joyce",
                         "phone":  "(02) 6761 3080",
                         "party":  "ON"
                     },
     "BULLWINKEL":  {
+                       "email":  "trish.cook.mp@aph.gov.au",
                        "state":  "WA",
                        "name":  "Patricia Ann Cook",
                        "phone":  "(08) 7079 0480",
                        "party":  "ALP"
                    },
     "BRADFIELD":  {
+                      "email":  "nicolette.boele.mp@aph.gov.au",
                       "state":  "NSW",
                       "name":  "Nicolette Boele",
                       "phone":  "(02) 9465 3950",
                       "party":  "IND"
                   },
     "WRIGHT":  {
+                   "email":  "scott.buchholz.mp@aph.gov.au",
                    "state":  "QLD",
                    "name":  "Scott Buchholz",
                    "phone":  "(07) 5541 0150",
                    "party":  "LNP"
                },
     "SCULLIN":  {
-                    "ministerialTitle":  "Minister for Skills and Training",
                     "state":  "VIC",
                     "name":  "Andrew James Giles",
+                    "party":  "ALP",
+                    "ministerialTitle":  "Minister for Skills and Training",
                     "phone":  "(03) 9497 9783",
-                    "party":  "ALP"
+                    "email":  "andrew.giles.mp@aph.gov.au"
                 },
     "MACARTHUR":  {
+                      "email":  "mike.freelander.mp@aph.gov.au",
                       "state":  "NSW",
                       "name":  "Michael Randolph Freelander",
                       "phone":  "(02) 4620 0293",
                       "party":  "ALP"
                   },
     "LEICHHARDT":  {
+                       "email":  "matt.smith.mp@aph.gov.au",
                        "state":  "QLD",
                        "name":  "Matthew John Howe Smith",
                        "phone":  "(07) 4051 2220",
                        "party":  "ALP"
                    },
     "MACKELLAR":  {
+                      "email":  "sophie.scamps.mp@aph.gov.au",
                       "state":  "NSW",
                       "name":  "Sophie Anna Scamps",
                       "phone":  "(02) 9913 9566",
                       "party":  "IND"
                   },
     "BASS":  {
+                 "email":  "jess.teesdale.mp@aph.gov.au",
                  "state":  "TAS",
                  "name":  "Jessica Ann Teesdale",
                  "phone":  "(03) 6334 7033",
                  "party":  "ALP"
              },
     "NICHOLLS":  {
+                     "email":  "sam.birrell.mp@aph.gov.au",
                      "state":  "VIC",
                      "name":  "Sam James Birrell",
                      "phone":  "(03) 5821 5371",
                      "party":  "NATS"
                  },
     "PATERSON":  {
+                     "email":  "meryl.swanson.mp@aph.gov.au",
                      "state":  "NSW",
                      "name":  "Meryl Jane Swanson",
                      "phone":  "(02) 4983 2401",
                      "party":  "ALP"
                  },
     "HUNTER":  {
+                   "email":  "dan.repacholi.mp@aph.gov.au",
                    "state":  "NSW",
                    "name":  "Daniel Peter Repacholi",
                    "phone":  "(02) 4991 1022",
                    "party":  "ALP"
                },
     "CALARE":  {
+                   "email":  "andrew.gee.mp@aph.gov.au",
                    "state":  "NSW",
                    "name":  "Andrew Robert Gee",
                    "phone":  "(02) 6361 7138",
                    "party":  "IND"
                },
     "RICHMOND":  {
+                     "email":  "justine.elliot.mp@aph.gov.au",
                      "state":  "NSW",
                      "name":  "Maria Justine Elliot",
                      "phone":  "(07) 5523 4371",
                      "party":  "ALP"
                  },
     "MONCRIEFF":  {
+                      "email":  "angie.bell.mp@aph.gov.au",
                       "state":  "QLD",
                       "name":  "Angie Marion Bell",
                       "phone":  "(07) 5504 6000",
                       "party":  "LNP"
                   },
     "CANNING":  {
+                    "email":  "andrew.hastie.mp@aph.gov.au",
                     "state":  "WA",
                     "name":  "Andrew William Hastie",
                     "phone":  "(08) 9534 8044",
                     "party":  "LP"
                 },
     "FLINDERS":  {
+                     "email":  "zoe.mckenzie.mp@aph.gov.au",
                      "state":  "VIC",
                      "name":  "Zoe Anne McKenzie",
                      "phone":  "(03) 5977 9082",
                      "party":  "LP"
                  },
     "FRASER":  {
-                   "ministerialTitle":  "Assistant Treasurer | Minister for Financial Services",
                    "state":  "VIC",
                    "name":  "Daniel Mulino",
+                   "party":  "ALP",
+                   "ministerialTitle":  "Assistant Treasurer | Minister for Financial Services",
                    "phone":  "(03) 9070 1974",
-                   "party":  "ALP"
+                   "email":  "daniel.mulino.mp@aph.gov.au"
                },
     "BARTON":  {
+                   "email":  "ash.ambihaipahar.mp@aph.gov.au",
                    "state":  "NSW",
                    "name":  "Ash Ambihaipahar",
                    "phone":  "(02) 9587 1555",
                    "party":  "ALP"
                },
     "GIPPSLAND":  {
+                      "email":  "darren.chester.mp@aph.gov.au",
                       "state":  "VIC",
                       "name":  "Darren Jeffrey Chester",
                       "phone":  "(03) 5144 6744",
                       "party":  "NATS"
                   },
     "GILMORE":  {
+                    "email":  "fiona.phillips.mp@aph.gov.au",
                     "state":  "NSW",
                     "name":  "Fiona Evon Phillips",
                     "phone":  "(02) 4423 1782",
                     "party":  "ALP"
                 },
     "GORTON":  {
+                   "email":  "alice.jordan-baird.mp@aph.gov.au",
                    "state":  "VIC",
                    "name":  "Marion Alice Marguerite Jordan-Baird",
                    "phone":  "(03) 8390 6166",
                    "party":  "ALP"
                },
     "LINGIARI":  {
+                     "email":  "marion.scrymgour.mp@aph.gov.au",
                      "state":  "NT",
                      "name":  "Marion Rose Scrymgour",
                      "phone":  "(08) 8952 9696",
                      "party":  "ALP"
                  },
     "ADELAIDE":  {
+                     "email":  "steve.georganas.mp@aph.gov.au",
                      "state":  "SA",
                      "name":  "Steven Georganas",
                      "phone":  "(08) 8269 2433",
                      "party":  "ALP"
                  },
     "COOK":  {
+                 "email":  "simon.kennedy.mp@aph.gov.au",
                  "state":  "NSW",
                  "name":  "Simon Peter Kennedy",
                  "phone":  "(02) 9523 0339",
                  "party":  "LP"
              },
     "RYAN":  {
+                 "email":  "elizabeth.watson-brown.mp@aph.gov.au",
                  "state":  "QLD",
                  "name":  "Elizabeth Watson-Brown",
                  "phone":  "(07) 3378 1599",
                  "party":  "AG"
              },
     "RANKIN":  {
-                   "ministerialTitle":  "Treasurer",
                    "state":  "QLD",
                    "name":  "James Edward Chalmers",
+                   "party":  "ALP",
+                   "ministerialTitle":  "Treasurer",
                    "phone":  "(07) 3299 5910",
-                   "party":  "ALP"
+                   "email":  "jim.chalmers.mp@aph.gov.au"
                },
     "DOBELL":  {
-                   "ministerialTitle":  "Assistant Minister for Mental Health and Suicide Prevention | Assistant Minister for Rural and Regional Health",
                    "state":  "NSW",
                    "name":  "Emma Margaret McBride",
+                   "party":  "ALP",
+                   "ministerialTitle":  "Assistant Minister for Mental Health and Suicide Prevention | Assistant Minister for Rural and Regional Health",
                    "phone":  "(02) 4353 0127",
-                   "party":  "ALP"
+                   "email":  "emma.mcbride.mp@aph.gov.au"
                },
     "MOORE":  {
+                  "email":  "tom.french.mp@aph.gov.au",
                   "state":  "WA",
                   "name":  "Thomas Alan French",
                   "phone":  "(08) 9300 2244",
