@@ -55,12 +55,12 @@ L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r
 }).addTo(map);
 
 
-//L.tileLayer(
-//'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
-//{
-//attribution:'© OpenStreetMap contributors'
-//}
-//).addTo(map);
+	//L.tileLayer(
+	//'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
+	//className: 'basemap-filter',
+	//attribution:'© OpenStreetMap contributors'
+	//}
+	//).addTo(map);
 
 map.createPane('lgaPane');
 map.getPane('lgaPane').style.zIndex = 250;
@@ -101,6 +101,7 @@ let federalMembers={};
 async function loadMemberData(){
 
 try{
+
 
 nswMembers=
 await (await fetch("nsw-members.json")).json();
@@ -366,6 +367,7 @@ federalLayer.addTo(map);
 // init
 (async () => {
 
+	await loadMemberData();
     await Promise.all([
         loadLGA(),
         loadState(),
