@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Canterbury-Bankstown Political Map</title>
+<title>CBCity Representitive Map</title>
 
 <link rel="stylesheet"
 href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
@@ -20,16 +20,9 @@ height:100%;
 width:100%;
 }
 
-.popup-photo{
-width:120px;
-display:block;
-margin-top:10px;
-border-radius:6px;
-}
-
 .legend{
 background:white;
-padding:10px;
+padding:20px;
 border-radius:5px;
 }
 
@@ -47,8 +40,9 @@ border-radius:5px;
 
 const map = L.map('map',{
 center:[-33.92889388810718,151.04364403022035],
-zoom:11
+zoom:12
 });
+
 
 L.tileLayer(
 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
@@ -56,32 +50,38 @@ L.tileLayer(
 attribution:'© OpenStreetMap contributors'
 }
 ).addTo(map);
+map.createPane('lgaPane');
+map.getPane('lgaPane').style.zIndex = 250;
 
 
-//------------------------
-// ArcGIS query helper
-//------------------------
+// ArcGIS query 
+async function queryArcGIS(url){
 
-async function queryArcGIS(url,where){
+try{
 
-const q= new URLSearchParams({
-where:where,
-outFields:"*",
-f:"geojson"
-});
+let response = await fetch(url);
 
-let response=await fetch(
-`${url}/query?${q}`
-);
+if(!response.ok){
+    console.log("ArcGIS error:", response.status, url);
+    return null;
+}
 
 return await response.json();
 
+}catch(err){
+
+console.log("Fetch failed:", err, url);
+return null;
+
 }
 
+}
 
-//------------------------
-// member data
-//------------------------
+// MEMBER DATA
+// Use PS1 script to create JSON files from CSV files here:
+//Download all the Legislative Council from: https://www.parliament.nsw.gov.au/members/downloadables/Pages/Members-of-the-Legislative-Council.aspx
+//Download All_members_by_name.csv from: https://www.aph.gov.au/Senators_and_Members/Contacting_Senators_and_Members/Address_labels_and_CSV_files 
+//upload json files to location
 
 let nswMembers={};
 let federalMembers={};
@@ -101,65 +101,113 @@ await (await fetch("federal-members.json")).json();
 console.log(
 "No member files yet"
 );
-
+}
 }
 
-}
 
-
-//------------------------
 // layers
-//------------------------
-
 let lgaLayer;
 let stateLayer;
 let federalLayer;
+let selectedLayer = null;
+
+function highlightFeature(layer){
+
+    // Reset previous selected polygon
+    if(selectedLayer){
+
+        if(selectedLayer.defaultStyle){
+            selectedLayer.setStyle(
+                selectedLayer.defaultStyle
+            );
+        }
+    }
+
+    selectedLayer = layer;
+
+    // Highlight style
+    layer.setStyle({
+		color:"#8A2BE2",
+		weight:4,
+		fillOpacity:0.4
+    });
+
+    // Bring selected polygon to front
+    if(!L.Browser.ie &&
+       !L.Browser.opera &&
+       !L.Browser.edge){
+
+        layer.bringToFront();
+    }
+
+}
 
 
-// Canterbury Bankstown
-
+// CBCity outline
 async function loadLGA(){
 
-let data=
-await queryArcGIS(
-"https://portal.spatial.nsw.gov.au/server/rest/services/NSW_Administrative_Boundaries_Theme_multiCRS/FeatureServer/8",
-"councilname='CANTERBURY-BANKSTOWN COUNCIL'"
-);
+let url =
+"https://portal.spatial.nsw.gov.au/server/rest/services/NSW_Administrative_Boundaries_Theme_multiCRS/FeatureServer/8/query?f=geojson&outFields=*&where=councilname='CANTERBURY-BANKSTOWN COUNCIL'";
 
-lgaLayer=L.geoJSON(data,{
-style:{
-color:"#000",
-weight:3,
-fillColor:"#555",
-fillOpacity:0.15
+let data = await queryArcGIS(url);
+
+if(!data){
+    console.log("LGA failed to load");
+    return;
 }
+
+lgaLayer = L.geoJSON(data, {
+
+    pane: 'lgaPane',
+
+    style: {
+        color: "#555555",
+        weight: 6,
+        //fillColor: "#55555",
+        fillOpacity: 0.0
+    }
+
 });
 
 lgaLayer.addTo(map);
-
 }
 
 
-// State districts
 
+// State districts
 async function loadState(){
 
-let data=
+let data =
 await queryArcGIS(
-"https://portal.spatial.nsw.gov.au/server/rest/services/NSW_Administrative_Boundaries_Theme_multiCRS/FeatureServer/4",
-"1=1"
+"https://portal.spatial.nsw.gov.au/server/rest/services/NSW_Administrative_Boundaries_Theme_multiCRS/FeatureServer/4/query?f=geojson&outFields=*&geometry=151.04364403022035,-33.92889388810718&geometryType=esriGeometryPoint&spatialRel=esriSpatialRelIntersects&distance=30000&units=esriSRUnit_Meter"
 );
 
 stateLayer=L.geoJSON(data,{
 
 style:{
 color:"#0b5fff",
-weight:2,
+weight:2.5,
 fillColor:"#5b8cff",
-fillOpacity:0.10
+fillOpacity:0.05,
+dashArray: '5, 7'
 },
 
 onEachFeature:function(feature,layer){
+
+    // Save original style
+    layer.defaultStyle={
+        color:"#0b5fff",
+        weight:2.5,
+        fillColor:"#5b8cff",
+        fillOpacity:0.05,
+		dashArray: '5, 7'
+    };
+
+    layer.on("click",function(){
+
+        highlightFeature(layer);
+
+    });
 
 let district=
 feature.properties.districtname
@@ -197,7 +245,7 @@ if(member){
 
     ${member.email ?
     `<b>Email:</b>
-    <a href="mailto:${member.email}">
+
     ${member.email}
     </a><br>` : ''}
     `;
@@ -218,22 +266,37 @@ stateLayer.addTo(map);
 
 async function loadFederal(){
 
-let data=
+let data =
 await queryArcGIS(
-"https://portal.spatial.nsw.gov.au/server/rest/services/NSW_Administrative_Boundaries_Theme_multiCRS/FeatureServer/9",
-"1=1"
+"https://portal.spatial.nsw.gov.au/server/rest/services/NSW_Administrative_Boundaries_Theme_multiCRS/FeatureServer/9/query?f=geojson&outFields=*&geometry=151.04364403022035,-33.92889388810718&geometryType=esriGeometryPoint&spatialRel=esriSpatialRelIntersects&distance=30000&units=esriSRUnit_Meter"
 );
 
 federalLayer=L.geoJSON(data,{
 
 style:{
 color:"#cc0000",
-weight:2,
+weight:2.5,
 fillColor:"#ff7777",
-fillOpacity:0.10
+fillOpacity:0.05,
+dashArray: '5, 7'
 },
 
 onEachFeature:function(feature,layer){
+
+    // Save original style
+    layer.defaultStyle={
+        color:"#cc0000",
+        weight:2.5,
+        fillColor:"#ff7777",
+        fillOpacity:0.05,
+		dashArray: '5, 7'
+    };
+
+    layer.on("click",function(){
+
+        highlightFeature(layer);
+
+    });
 
 let electorate=
 feature.properties.elect_div
@@ -268,6 +331,10 @@ if(member){
     ${member.phone ?
     `<b>Phone:</b>
     ${member.phone}<br>` : ''}
+	
+	${member.email ?
+    `<b>Email:</b>
+    ${member.email}<br>` : ''}
 
     ${member.state ?
     `<b>State:</b>
@@ -285,32 +352,25 @@ federalLayer.addTo(map);
 
 }
 
-
-//------------------------
 // init
-//------------------------
+(async () => {
 
-(async()=>{
+    await Promise.all([
+        loadLGA(),
+        loadState(),
+        loadFederal()
+    ]);
 
-await loadMemberData();
-
-await loadLGA();
-
-await loadState();
-
-await loadFederal();
-
-L.control.layers(
-{},
-{
-"NSW State Districts":stateLayer,
-"Federal Electorates":federalLayer,
-"Canterbury-Bankstown LGA":lgaLayer
-},
-{
-collapsed:false
-}
-).addTo(map);
+    L.control.layers(
+        null,
+        {
+            "NSW State Districts": stateLayer,
+            "Federal Electorates": federalLayer
+        },
+        {
+            collapsed: false
+        }
+    ).addTo(map);
 
 })();
 
