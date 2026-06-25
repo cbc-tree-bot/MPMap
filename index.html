@@ -9,21 +9,78 @@ href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
 
 <style>
 
-html,body{
-height:100%;
-margin:0;
-padding:0;
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
 }
 
-#map{
-height:100%;
-width:100%;
+/* Map fills screen */
+#map {
+    height: 100%;
+    width: 100%;
 }
 
-.legend{
-background:white;
-padding:20px;
-border-radius:5px;
+/* -----------------------------
+   POPUPS (mobile-friendly text)
+------------------------------*/
+.leaflet-popup-content {
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+@media (max-width: 768px) {
+
+    .leaflet-popup-content {
+        font-size: 16px;
+    }
+
+}
+
+/* -----------------------------
+   LAYER CONTROL (big improvement)
+------------------------------*/
+.leaflet-control-layers {
+    font-size: 14px;
+    max-width: 220px;
+}
+
+.leaflet-control-layers {
+    background: rgba(255,255,255,0.95);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    border-radius: 6px;
+}
+
+/* MOBILE: make controls larger & usable */
+@media (max-width: 768px) {
+
+    .leaflet-control-layers {
+        font-size: 16px;
+        max-width: 90vw;
+    }
+
+    .leaflet-control-layers-toggle {
+        transform: scale(1.2);
+    }
+}
+
+/* -----------------------------
+   ZOOM BUTTONS
+------------------------------*/
+.leaflet-control-zoom a {
+    font-size: 18px;
+}
+
+/* Bigger tap targets on mobile */
+@media (max-width: 768px) {
+
+    .leaflet-control-zoom a {
+        font-size: 22px;
+        width: 36px;
+        height: 36px;
+        line-height: 36px;
+    }
 }
 
 .basemap-filter {
@@ -64,6 +121,8 @@ L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r
 
 map.createPane('lgaPane');
 map.getPane('lgaPane').style.zIndex = 250;
+
+
 
 
 // ArcGIS query 
@@ -319,6 +378,8 @@ federalMembers[
     electorate.trim().toUpperCase()
 ];
 
+
+
 let html=
 `
 <b>Federal Electorate:</b>
@@ -326,6 +387,7 @@ ${electorate}<br>
 `;
 
 if(member){
+
 
     html += `
     <hr>
@@ -374,16 +436,13 @@ federalLayer.addTo(map);
         loadFederal()
     ]);
 
-    L.control.layers(
-        null,
-        {
+	L.control.layers(null,{
             "NSW State Districts": stateLayer,
             "Federal Electorates": federalLayer
-        },
-        {
-            collapsed: false
-        }
-    ).addTo(map);
+        }, {
+    collapsed: false,
+    position: 'topright'
+}).addTo(map);
 
 })();
 
