@@ -148,15 +148,16 @@ return null;
 // Use PS1 script to create JSON files from CSV files here:
 //Download all the Legislative Council from: https://www.parliament.nsw.gov.au/members/downloadables/Pages/Members-of-the-Legislative-Council.aspx
 //Download All_members_by_name.csv from: https://www.aph.gov.au/Senators_and_Members/Contacting_Senators_and_Members/Address_labels_and_CSV_files 
+// run the convert_Councilors script, and download directly from website. 
 //upload json files to location
 
 let nswMembers={};
 let federalMembers={};
+let councillorData = {};
 
 async function loadMemberData(){
 
 try{
-
 
 nswMembers=
 await (await fetch("nsw-members.json")).json();
@@ -164,12 +165,17 @@ await (await fetch("nsw-members.json")).json();
 federalMembers=
 await (await fetch("federal-members.json")).json();
 
+councillorData=
+await (await fetch("councillors.json")).json();
+
 }catch(e){
 
 console.log(
-"No member files yet"
+"No member files yet",e
 );
+
 }
+
 }
 
 
@@ -177,6 +183,7 @@ console.log(
 let lgaLayer;
 let stateLayer;
 let federalLayer;
+let wardLayer;
 let selectedLayer = null;
 
 function highlightFeature(layer){
@@ -422,23 +429,149 @@ federalLayer.addTo(map);
 
 }
 
+// Ward Info
+async function loadCouncilWards(){
+
+let data =
+await queryArcGIS(
+"https://services2.arcgis.com/Ax17MufLaTdpFneh/ArcGIS/rest/services/Ward_Aboriginal_Name/FeatureServer/0/query?f=geojson&where=1=1&outFields=*"
+);
+
+if(!data)return;
+
+wardLayer = L.geoJSON(data,{
+
+
+    style:{
+        color:"#1aff1a",
+        weight:2.5,
+        //fillColor:"#1aff1a",
+        fillOpacity:0.02,
+		dashArray: '5, 7'
+    },
+	
+	
+
+    onEachFeature:function(feature,layer){
+
+    // Save original style
+    layer.defaultStyle={
+        color:"#1aff1a",
+        weight:2.5,
+        //fillColor:"#1aff1a",
+        fillOpacity:0.02,
+		dashArray: '5, 7'
+    };
+
+    layer.on("click",function(){
+
+        highlightFeature(layer);
+
+    });
+
+        let ward =
+        feature.properties.WARD_NAME
+        .trim()
+        .toUpperCase();
+
+let councillors =
+    councillorData[ward];
+
+let html=`
+<div style="
+    min-width:220px;
+    max-width:280px;
+">
+
+<div style="
+    font-size:16px;
+    //font-weight:bold;
+    margin-bottom:6px;
+">
+<b>Ward: </b> 
+${feature.properties.WARD_NAME}
+</div>
+`;
+
+if(councillors && councillors.length){
+
+    // Only add separator if we have councillor data
+    html += `
+    <hr style="
+        margin-top:6px;
+        margin-bottom:10px;
+    ">
+    `;
+
+    councillors.forEach(c=>{
+
+        html += `
+        <div style="
+            margin-left:12px;
+            margin-bottom:14px;
+        ">
+
+            <div style="
+                font-weight:bold;
+            ">
+            ${c.name}
+            </div>
+
+            <div>
+            ${c.email}
+            </div>
+
+        </div>
+        `;
+    });
+
+}
+
+html += "</div>";
+
+layer.bindPopup(html);
+
+    }
+
+});
+
+wardLayer.addTo(map);
+
+}
+
+
+
+
 // init
 (async () => {
 
 	await loadMemberData();
-    await Promise.all([
-        loadLGA(),
-        loadState(),
-        loadFederal()
-    ]);
+	await Promise.allSettled([
+		loadLGA(),
+		loadState(),
+		loadFederal(),
+		loadCouncilWards()
+	]);
 
-	L.control.layers(null,{
-            "NSW State Districts": stateLayer,
-            "Federal Electorates": federalLayer
-        }, {
-    collapsed: false,
-    position: 'topright'
-}).addTo(map);
+	let overlays={};
+
+	if(wardLayer)
+		overlays["Council Wards"]=wardLayer;
+
+	if(stateLayer)
+		overlays["NSW State Districts"]=stateLayer;
+
+	if(federalLayer)
+		overlays["Federal Electorates"]=federalLayer;
+
+	L.control.layers(
+		null,
+		overlays,
+		{
+			collapsed:false,
+			position:'topright'
+		}
+	).addTo(map);
 
 })();
 
