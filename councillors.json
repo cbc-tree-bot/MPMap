@@ -1,0 +1,72 @@
+﻿{
+    "DARANI / BANKSTOWN":  [
+                               {
+                                   "name":  "Bilal El-Hayek - Mayor",
+                                   "email":  "Mayor@cbcity.nsw.gov.au"
+                               },
+                               {
+                                   "name":  "Khal Asfour",
+                                   "email":  "Khal.Asfour@cbcity.nsw.gov.au"
+                               },
+                               {
+                                   "name":  "George Zakhia",
+                                   "email":  "George.Zakhia@cbcity.nsw.gov.au"
+                               }
+                           ],
+    "BUDJAR / CANTERBURY":  [
+                                {
+                                    "name":  "Conroy Blood",
+                                    "email":  "Conroy.Blood@cbcity.nsw.gov.au"
+                                },
+                                {
+                                    "name":  "Barbara Coorey",
+                                    "email":  "Barbara.Coorey@cbcity.nsw.gov.au"
+                                },
+                                {
+                                    "name":  "Clare Raffan",
+                                    "email":  "Clare.Raffan@cbcity.nsw.gov.au"
+                                }
+                            ],
+    "BUNMARRA / ROSELANDS":  [
+                                 {
+                                     "name":  "Sherin Akther",
+                                     "email":  "Sherin.Akther@cbcity.nsw.gov.au"
+                                 },
+                                 {
+                                     "name":  "Hady Saleh",
+                                     "email":  "hady.saleh@cbcity.nsw.gov.au"
+                                 },
+                                 {
+                                     "name":  "Harry Stavrinos",
+                                     "email":  "Harry.Stavrinos@cbcity.nsw.gov.au"
+                                 }
+                             ],
+    "BUNYA / REVESBY":  [
+                            {
+                                "name":  "Wendy Lindsay",
+                                "email":  "Wendy.Lindsay@cbcity.nsw.gov.au"
+                            },
+                            {
+                                "name":  "David Walsh",
+                                "email":  "David.Walsh@cbcity.nsw.gov.au"
+                            },
+                            {
+                                "name":  "Jennifer Walther",
+                                "email":  "Jennifer.Walther@cbcity.nsw.gov.au"
+                            }
+                        ],
+    "BURA / BASS HILL":  [
+                             {
+                                 "name":  "Saud Abu-Samen",
+                                 "email":  "Saud.AbuSamen@cbcity.nsw.gov.au"
+                             },
+                             {
+                                 "name":  "Chris Cahill",
+                                 "email":  "Chris.Cahill@cbcity.nsw.gov.au"
+                             },
+                             {
+                                 "name":  "Rachelle Harika - Deputy Mayor",
+                                 "email":  "Rachelle.Harika@cbcity.nsw.gov.au"
+                             }
+                         ]
+}
